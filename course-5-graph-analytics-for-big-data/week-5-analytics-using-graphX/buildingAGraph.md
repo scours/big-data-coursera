@@ -1,4 +1,4 @@
-#Building a graph  #
+# Building a graph  #
 1. Start the Cloudera VM and Upload the datasets to HDFS
 2. Import the GraphX libraries
 3. Import the Vertices
@@ -8,13 +8,13 @@
 
 **File 1**
 
-##Extract and upload datasets into HDFS ##
+## Extract and upload datasets into HDFS ##
     unzip ExamplesOfAnalytics.zip
     cd ExamplesOfAnalytics
     hdfs dfs -put EOADATA
 
 
-##Start Spark Shell and libraries ##
+## Start Spark Shell and libraries ##
     spark-shell --jars lib/gs-core-1.2.jar,lib/gs-ui-1.2.jar,lib/jcommon-1.0.16.jar,lib/jfreechart-1.0.13.jar,lib/breeze_2.10-0.9.jar,lib/breeze-viz_2.10-0.9.jar,lib/pherd-1.0.jar
 
 ## Import the GraphX libraries ##
